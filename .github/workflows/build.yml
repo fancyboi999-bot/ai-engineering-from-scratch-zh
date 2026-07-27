@@ -40,7 +40,11 @@ jobs:
           echo "✅ 站点构建成功，data.js 已生成"
       - name: 仓库入口归属校验
         run: |
-          if grep -R -n -E --exclude-dir=.git --exclude-dir=node_modules 'fancyboi999/ai-engineering-from-scratch-zh|https://github\.com/fancyboi999(["/])' .; then
+          legacy_owner='fancyboi999'
+          legacy_repo="${legacy_owner}/ai-engineering-from-scratch-zh"
+          legacy_profile="https://github.com/${legacy_owner}"
+          if grep -R -n -F --exclude-dir=.git --exclude-dir=node_modules \
+            -e "${legacy_repo}" -e "${legacy_profile}\"" -e "${legacy_profile}/" .; then
             echo "检测到旧 GitHub 仓库或账号入口"
             exit 1
           fi
