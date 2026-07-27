@@ -12,7 +12,7 @@
   <a href="ROADMAP.md"><img src="https://img.shields.io/badge/lessons-503-3553ff?style=flat-square&labelColor=fafaf5" alt="503 lessons"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 phases"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="MIT License"></a>
-  <a href="https://github.com/fancyboi999/ai-engineering-from-scratch-zh/stargazers"><img src="https://img.shields.io/github/stars/fancyboi999/ai-engineering-from-scratch-zh?style=flat-square&labelColor=fafaf5&color=3553ff&cacheSeconds=21600" alt="GitHub stars"></a>
+  <a href="https://github.com/fancyboi999-bot/ai-engineering-from-scratch-zh/stargazers"><img src="https://img.shields.io/github/stars/fancyboi999-bot/ai-engineering-from-scratch-zh?style=flat-square&labelColor=fafaf5&color=3553ff&cacheSeconds=21600" alt="GitHub stars"></a>
 </p>
 
 ```
@@ -37,6 +37,7 @@
 |---|---|
 | 🇨🇳 **全站简体中文** | 503 节课正文、83 条术语表、测验题、`mermaid` 流程图、交互图表标签全部中文化（`agent`、`token`、`transformer` 等技术术语按惯例保留英文） |
 | 🌐 **独立中文网站 [aieng-zh.cn](https://aieng-zh.cn)** | 可搜索的课程目录、学习进度追踪、可拖动的交互式图表、命令面板（`Cmd / Ctrl + K`）、深色模式 |
+| 🎬 **配套动画讲解视频** | 3Blue1Brown 风格的无真人动画讲解，把每节课的数学推导与核心直觉做成可视化短片，中文配音、在课程页内嵌播放。Phase 1（数学基础 22 节）已上线，其余阶段陆续制作中——它是对动手推导的补充，不是替你跳过思考的速成视频 |
 | 🔍 **为 AI 检索优化** | 构建时自动生成 `sitemap.xml` / `llms.txt` / 结构化数据，方便被搜索引擎和 AI 助手引用 |
 | ✅ **课数一致性护栏** | CI 自动校验课程数（`node site/build.js --check`），防止课程列表与磁盘上的实际内容漂移 |
 
@@ -133,7 +134,7 @@ flowchart LR
 **方式 B —— clone 下来跑。**
 
 ```bash
-git clone https://github.com/fancyboi999/ai-engineering-from-scratch-zh.git
+git clone https://github.com/fancyboi999-bot/ai-engineering-from-scratch-zh.git
 cd ai-engineering-from-scratch-zh
 python phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
 ```
@@ -962,9 +963,9 @@ outputs/
 自动识别你 agent 的技能目录：
 
 ```bash
-npx skills add fancyboi999/ai-engineering-from-scratch-zh                       # 所有技能
-npx skills add fancyboi999/ai-engineering-from-scratch-zh --skill agent-loop    # 单个技能
-npx skills add fancyboi999/ai-engineering-from-scratch-zh --phase 14            # 单个阶段
+npx skills add fancyboi999-bot/ai-engineering-from-scratch-zh                       # 所有技能
+npx skills add fancyboi999-bot/ai-engineering-from-scratch-zh --skill agent-loop    # 单个技能
+npx skills add fancyboi999-bot/ai-engineering-from-scratch-zh --phase 14            # 单个阶段
 ```
 
 `skills` 会写到你 agent 实际读取的那个目录：`.claude/skills/`、`.cursor/skills/`、
@@ -1136,10 +1137,10 @@ python3 scripts/audit_lessons.py --json    # 适合 CI 的输出
 
 ## Star 历史
 
-<a href="https://star-history.com/#fancyboi999/ai-engineering-from-scratch-zh&Date">
+<a href="https://star-history.com/#fancyboi999-bot/ai-engineering-from-scratch-zh&Date">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=fancyboi999/ai-engineering-from-scratch-zh&type=Date&theme=dark">
-    <img alt="Star history" src="https://api.star-history.com/svg?repos=fancyboi999/ai-engineering-from-scratch-zh&type=Date" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=fancyboi999-bot/ai-engineering-from-scratch-zh&type=Date&theme=dark">
+    <img alt="Star history" src="https://api.star-history.com/svg?repos=fancyboi999-bot/ai-engineering-from-scratch-zh&type=Date" width="100%">
   </picture>
 </a>
 
@@ -1153,5 +1154,5 @@ MIT。随你怎么用——fork、拿去教学、拿去卖、拿去交付。欢�
 
 <sub>
   <a href="https://aieng-zh.cn">aieng-zh.cn</a> &nbsp;·&nbsp;
-  <a href="https://github.com/fancyboi999/ai-engineering-from-scratch-zh/issues/new/choose">Report / Suggest</a>
+  <a href="https://github.com/fancyboi999-bot/ai-engineering-from-scratch-zh/issues/new/choose">Report / Suggest</a>
 </sub>

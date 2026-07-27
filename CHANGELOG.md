@@ -43,4 +43,4 @@
 - 全部 20 个阶段的初始脚手架（`phases/00-*` 到 `phases/19-*`）。
 - `LESSON_TEMPLATE.md`、`CONTRIBUTING.md`、`ROADMAP.md`、`README.md`。
 
-[未发布]: https://github.com/fancyboi999/ai-engineering-from-scratch-zh/compare/HEAD...HEAD
+[未发布]: https://github.com/fancyboi999-bot/ai-engineering-from-scratch-zh/compare/HEAD...HEAD
