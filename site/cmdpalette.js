@@ -386,7 +386,7 @@
         // Jump to the lesson that produced this artifact
         dest = r.lessonPath
           ? '/lessons/' + r.lessonPath.replace(/^phases\//, '') + '/'
-          : ('https://github.com/fancyboi999/ai-engineering-from-scratch-zh/tree/main/' + r.file);
+          : ('https://github.com/fancyboi999-bot/ai-engineering-from-scratch-zh/tree/main/' + r.file);
         var ak = (r.artKind || 'artifact');
         chip = artifactKindLabel(ak);
         chipClass += ' cp-item-chip--alt';

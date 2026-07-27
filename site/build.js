@@ -19,7 +19,7 @@ const OUTPUT_PATH = path.join(__dirname, 'data.js');
 
 // 开源可移植:fork 部署只需设这两个环境变量即可让全站 SEO/社交卡/源码链接指向自己的域名与仓库,
 // 不设则回落到本仓库的官方部署(aieng-zh.cn)。CI/Vercel buildCommand 里 export 即可生效。
-const GITHUB_BASE = process.env.GITHUB_BASE || 'https://github.com/fancyboi999/ai-engineering-from-scratch-zh/tree/main/';
+const GITHUB_BASE = process.env.GITHUB_BASE || 'https://github.com/fancyboi999-bot/ai-engineering-from-scratch-zh/tree/main/';
 const SITE_ORIGIN = process.env.SITE_ORIGIN || 'https://aieng-zh.cn';
 
 // 与浏览器端同一份渲染器（从 lesson.html 抽出）；预渲染产物 = 运行时渲染产物
@@ -528,7 +528,7 @@ function writeLlms(phases, glossaryCount, artifactCount) {
   let out = `# AI Engineering from Scratch · 简体中文版\n\n`;
   out += `> 一套免费、开源的 AI 工程课程，从零亲手实现每一个核心算法——${total} 节课，横跨 ${phases.length} 个阶段，从线性代数到自主 agent。Python、TypeScript、Rust、Julia。本站为简体中文翻译版。\n\n`;
   out += `Canonical site: ${SITE_ORIGIN}\n`;
-  out += `Source: https://github.com/fancyboi999/ai-engineering-from-scratch-zh\n`;
+  out += `Source: https://github.com/fancyboi999-bot/ai-engineering-from-scratch-zh\n`;
   out += `Upstream: https://github.com/rohitg00/ai-engineering-from-scratch\n`;
   out += `Glossary terms: ${glossaryCount} · Reusable outputs (prompts/skills/agents): ${artifactCount}\n\n`;
   for (const phase of phases) {

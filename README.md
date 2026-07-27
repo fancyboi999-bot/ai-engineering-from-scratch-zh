@@ -12,7 +12,7 @@
   <a href="ROADMAP.md"><img src="https://img.shields.io/badge/lessons-503-3553ff?style=flat-square&labelColor=fafaf5" alt="503 lessons"></a>
   <a href="#contents"><img src="https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5" alt="20 phases"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5" alt="MIT License"></a>
-  <a href="https://github.com/fancyboi999/ai-engineering-from-scratch-zh/stargazers"><img src="https://img.shields.io/github/stars/fancyboi999/ai-engineering-from-scratch-zh?style=flat-square&labelColor=fafaf5&color=3553ff&cacheSeconds=21600" alt="GitHub stars"></a>
+  <a href="https://github.com/fancyboi999-bot/ai-engineering-from-scratch-zh/stargazers"><img src="https://img.shields.io/github/stars/fancyboi999-bot/ai-engineering-from-scratch-zh?style=flat-square&labelColor=fafaf5&color=3553ff&cacheSeconds=21600" alt="GitHub stars"></a>
 </p>
 
 ```
@@ -134,7 +134,7 @@ flowchart LR
 **方式 B —— clone 下来跑。**
 
 ```bash
-git clone https://github.com/fancyboi999/ai-engineering-from-scratch-zh.git
+git clone https://github.com/fancyboi999-bot/ai-engineering-from-scratch-zh.git
 cd ai-engineering-from-scratch-zh
 python phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py
 ```
@@ -963,9 +963,9 @@ outputs/
 自动识别你 agent 的技能目录：
 
 ```bash
-npx skills add fancyboi999/ai-engineering-from-scratch-zh                       # 所有技能
-npx skills add fancyboi999/ai-engineering-from-scratch-zh --skill agent-loop    # 单个技能
-npx skills add fancyboi999/ai-engineering-from-scratch-zh --phase 14            # 单个阶段
+npx skills add fancyboi999-bot/ai-engineering-from-scratch-zh                       # 所有技能
+npx skills add fancyboi999-bot/ai-engineering-from-scratch-zh --skill agent-loop    # 单个技能
+npx skills add fancyboi999-bot/ai-engineering-from-scratch-zh --phase 14            # 单个阶段
 ```
 
 `skills` 会写到你 agent 实际读取的那个目录：`.claude/skills/`、`.cursor/skills/`、
@@ -1137,10 +1137,10 @@ python3 scripts/audit_lessons.py --json    # 适合 CI 的输出
 
 ## Star 历史
 
-<a href="https://star-history.com/#fancyboi999/ai-engineering-from-scratch-zh&Date">
+<a href="https://star-history.com/#fancyboi999-bot/ai-engineering-from-scratch-zh&Date">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=fancyboi999/ai-engineering-from-scratch-zh&type=Date&theme=dark">
-    <img alt="Star history" src="https://api.star-history.com/svg?repos=fancyboi999/ai-engineering-from-scratch-zh&type=Date" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=fancyboi999-bot/ai-engineering-from-scratch-zh&type=Date&theme=dark">
+    <img alt="Star history" src="https://api.star-history.com/svg?repos=fancyboi999-bot/ai-engineering-from-scratch-zh&type=Date" width="100%">
   </picture>
 </a>
 
@@ -1154,5 +1154,5 @@ MIT。随你怎么用——fork、拿去教学、拿去卖、拿去交付。欢�
 
 <sub>
   <a href="https://aieng-zh.cn">aieng-zh.cn</a> &nbsp;·&nbsp;
-  <a href="https://github.com/fancyboi999/ai-engineering-from-scratch-zh/issues/new/choose">Report / Suggest</a>
+  <a href="https://github.com/fancyboi999-bot/ai-engineering-from-scratch-zh/issues/new/choose">Report / Suggest</a>
 </sub>
